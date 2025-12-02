@@ -1,0 +1,110 @@
+/* task 1 */
+.box{
+    background-color: blue;
+    color: bisque;
+    outline: 2px solid black;;
+    border-radius: 4px;
+    width: 200px;
+    height: 20x;
+    align-items: center;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+}
+/* task 2 */
+.Square {
+    width: 200px;
+    height: 200x;
+    background-color: brown;
+    margin: 20px;
+    padding: 20px;
+}
+.p{
+    text-align: center;
+}
+/* task4 */
+.p{
+    font-family: 'Poppins', sans-serif;;
+}
+/* task5 */
+.paragraph1{
+    font-size: 14px;
+}
+.paragraph2{
+    font-size: 18px;
+}
+.paragraph3{
+    font-size: 24px;
+}
+/* task 6 */
+.upper{
+    text-transform: uppercase;
+
+}
+.lower{
+    text-transform: lowercase;
+
+}
+.capital{
+    text-transform: capitalize;
+
+}
+.box1{
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    padding: 20px;
+    background-color: grey;
+    color: blanchedalmond;
+    text-align: center;
+}
+/* task  8 */
+ .container {
+            display: flex; 
+            gap: 20px; /* Space between boxes */
+        }
+
+        .border-box {
+            width: 150px;
+            height: 150px;
+            border: 3px solid red; /* Border affects layout */
+            padding: 10px;
+        }
+
+        .outline-box {
+            width: 150px;
+            height: 150px;
+            outline: 3px solid blue; /* Outline does NOT affect layout */
+            padding: 10px;
+        }
+/* task9 */
+.banner{
+    width: 100%;        /* Full width */
+    height: 150px;      /* Banner height */
+    background-color: teal; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+/* task 10 */
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .box4 {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .hidden-box {
+            overflow: hidden; /* Extra content will be cut */
+        }
+
+        .scroll-box {
+            overflow: scroll; /* Scrollbars will appear */
+        }
