@@ -57,6 +57,7 @@
     background-color: grey;
     color: blanchedalmond;
     text-align: center;
+    
 }
 /* task  8 */
  .container {
@@ -107,4 +108,85 @@
 
         .scroll-box {
             overflow: scroll; /* Scrollbars will appear */
+
         }
+
+        /* 39 day class task 1 */
+.no-bullets{
+       list-style-type: none; /* Removes bullets */
+       padding: 0;            /* Optional: removes left spacing */
+
+}
+/* Task 2 */
+.colored-bullets li::marker{
+    color: red;     /* Change bullet color */
+    font-size: 20px
+}
+/* task 3 */
+.spaced-list li {
+    margin-bottom: 20px
+
+}
+/* task 4 */
+.uppercase{
+    text-transform: uppercase;
+    color: blue;
+}
+/* task 5 */
+.hover-list{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.hover-list li:hover{
+      color: blue; 
+
+}
+/* task 6 */
+.border-table,
+.border-table th, 
+.border-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px; 
+    color: blue;
+
+}
+/* task 7 */
+.my-table,
+.my-table th,
+.my-table td{
+    border: 1px solid rgb(56, 48, 48);
+    border-collapse: collapse;
+    padding: 8px; 
+    color: black
+}
+
+
+.my-table th{
+    background-color: lightgray; /* Header background color */
+}
+/* task 8 */
+.zebra-table,
+.zebra-table th,
+.zebra-table td{
+    border: 1px solid rgb(56, 48, 48);
+    border-collapse: collapse;
+    padding: 8px; 
+    color: black
+}
+.zebra-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+/* task 9 */
+.click-now{
+    cursor: pointer;
+    transition: 0.3s ease;;
+}
+.click-now :hover{
+    color: blue; 
+}
+/* task 10 */
+.Buy-now{
+    cursor: pointer;
+    text-decoration: none; 
+}
